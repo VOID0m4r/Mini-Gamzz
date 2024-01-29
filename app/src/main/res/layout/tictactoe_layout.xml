@@ -1,0 +1,114 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fallbackground"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/homeButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="167dp"
+        android:layout_marginBottom="61dp"
+        android:onClick="buHome"
+        android:text="home"
+        tools:ignore="HardcodedText" />
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/buClick1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginEnd="3pt"
+                android:onClick="BuClick"
+                tools:ignore="ButtonStyle,SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/buClick2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginEnd="3pt"
+                android:onClick="BuClick"
+                tools:ignore="ButtonStyle,SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/buClick3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginEnd="3pt"
+                android:onClick="BuClick"
+                tools:ignore="ButtonStyle,SpeakableTextPresentCheck" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/buClick4"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginEnd="3pt"
+                android:onClick="BuClick"
+                tools:ignore="ButtonStyle,SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/buClick5"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginEnd="3pt"
+                android:onClick="BuClick"
+                tools:ignore="ButtonStyle,SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/buClick6"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginEnd="3pt"
+                android:onClick="BuClick"
+                tools:ignore="ButtonStyle,SpeakableTextPresentCheck" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/buClick7"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginEnd="3pt"
+                android:onClick="BuClick"
+                tools:ignore="ButtonStyle,SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/buClick8"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginEnd="3pt"
+                android:onClick="BuClick"
+                tools:ignore="ButtonStyle,SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/buClick9"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginEnd="3pt"
+                android:onClick="BuClick"
+                tools:ignore="ButtonStyle,SpeakableTextPresentCheck" />
+        </TableRow>
+
+    </TableLayout>
+</RelativeLayout>

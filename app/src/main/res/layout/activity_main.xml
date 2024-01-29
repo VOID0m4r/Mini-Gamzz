@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/tictactoeButton"
+        android:layout_width="256dp"
+        android:layout_height="130dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="302dp"
+        android:layout_marginEnd="79dp"
+        android:layout_marginBottom="298dp"
+        android:background="@drawable/roundcorner"
+        android:onClick="tictactoeClick"
+        app:srcCompat="@drawable/tictactoe_button"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/hangmanButton"
+        android:layout_width="255dp"
+        android:layout_height="128dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="123dp"
+        android:layout_marginEnd="81dp"
+        android:layout_marginRight="62dp"
+        android:layout_marginBottom="479dp"
+        android:background="@drawable/roundcorner"
+        android:onClick="hangmanClick"
+        app:srcCompat="@drawable/hangman_buttton"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/sudokuButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="77dp"
+        android:layout_marginEnd="76dp"
+        android:layout_marginBottom="125dp"
+        android:background="@drawable/roundcorner"
+        android:onClick="sudokuClick"
+        app:srcCompat="@drawable/sudoku_button"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="200dp"
+        android:layout_height="33dp"
+        android:layout_centerHorizontal="true"
+        android:text="TextView"
+        android:textSize="20dp"
+        android:textStyle="italic" />
+
+</RelativeLayout>

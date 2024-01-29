@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@drawable/winterbackground"
+android:padding="16dp"
+tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/homeButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/guessButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="323dp"
+        android:onClick="buHome"
+        android:text="home" />
+
+    <TextView
+        android:id="@+id/wordTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:text=""
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/guessEditText"
+        android:layout_width="380dp"
+        android:layout_height="61dp"
+        android:layout_below="@id/wordTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:hint="Enter a letter"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        tools:ignore="TextContrastCheck,TextFields"
+        android:importantForAutofill="no" />
+
+<Button
+    android:id="@+id/guessButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/guessEditText"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="16dp"
+    android:text="Guess"/>
+
+    <TextView
+        android:id="@+id/attemptsTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/guessButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text=""
+        android:textColor="#000000" />
+</RelativeLayout>
